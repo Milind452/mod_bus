@@ -2,6 +2,7 @@
 Resource    ./ThermostatStepDefinition.robot
 Metadata    Feature Test Thermostat Cut in/Cut-out
 Default Tags  POC Test Simulator
+Test Setup  Set Global Variable  ${FLAG}
 
 *** Variables ***
 ${FLAG}  0
