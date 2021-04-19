@@ -5,6 +5,10 @@ Default Tags  POC Test Simulator
 Test Setup  Set Global Variable  ${FLAG}
 
 *** Variables ***
+###############################
+#    FLAG[0]  |  SIMULATOR    #
+#    FLAG[1]  |  HARDWARE     #
+###############################
 ${FLAG}  0
 
 *** Test Cases ***
