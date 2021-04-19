@@ -12,6 +12,11 @@ Library  XML
 Flag Status
 
     Log To Console  ${FLAG}
+    IF  ${FLAG} == 0
+        Log To Console  "Simulator"
+    ELSE
+        Log To Console  "Hardware"
+    END
 
 Set Differential temperature 2 degree Celsius  PNU 101
 
