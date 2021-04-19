@@ -3,6 +3,9 @@ Resource    ./ThermostatStepDefinition.robot
 Metadata    Feature Test Thermostat Cut in/Cut-out
 Default Tags  POC Test Simulator
 
+*** Variables ***
+${FLAG}  0
+
 *** Test Cases ***
 Simulator test thermostat Cut in/Cut-out
     Given Set Differential temperature 2 degree Celsius  PNU 101
